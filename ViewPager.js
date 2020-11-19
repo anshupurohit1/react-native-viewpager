@@ -15,7 +15,7 @@ var {
   ViewPropTypes,
 } = ReactNative;
 
-var StaticRenderer = require('react-native/Libraries/Components/StaticRenderer');
+var StaticRenderer = require('react-native-web/dist/cjs/vendor/react-native/StaticRenderer/index.js');
 var TimerMixin = require('react-timer-mixin');
 
 var DefaultViewPageIndicator = require('./DefaultViewPageIndicator');
